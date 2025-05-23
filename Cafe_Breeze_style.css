@@ -1,0 +1,57 @@
+body{
+background-color:#fff8e1;
+
+}
+
+h1{
+font-size : 300%;
+}
+
+div{
+max-width: 640px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#cafe_photo	th{
+text-align: center;
+}
+
+img{
+display: block;
+margin: 0 auto;
+max-width: 100%; /*はみ出さないようにする*/
+height: auto;
+}
+
+h1,h2,li,footer{
+text-align:center;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+/* 偶数行の背景を薄グレーに */
+tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+/* 奇数行の背景は白（省略も可能） */
+tr:nth-child(odd) {
+background-color: #ffffff;
+}
+
+#cafe_menu	th, td{
+text-align: center;
+border-bottom:solid 1px #2b2b2b;
+border-right:solid 1px #2b2b2b;
+border-top:solid 1px #2b2b2b;
+border-left:solid 1px #2b2b2b;
+}
+
+li
+{
+list-style:none;
+}
